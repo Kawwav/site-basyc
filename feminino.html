@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASYC</title>
+    <link rel="icon" href="./img/download.png" type="image/x-icon">
+    <script src="trabalho.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<header>
+<div id="frete">
+    FRETE GRÁTIS A PARTIR R$150
+
+</div>
+
+
+<div id="logo">
+    <a href="index.html">
+        BASYC
+    </a>
+</div>
+
+<header id="opções">
+
+    <div>
+        <a href="masculino.html">
+        <B>★MASCULINO/UNISSEX</B>
+        </a>
+    </div>
+
+    <div>
+        <b>★FEMININO</B>
+    </div>
+
+    <div>
+        <a href="outros.html">
+        <b>★ACESSÓRIOS</b>
+        </a>
+    </div>
+
+    <forms>
+
+        <label for="pesquisa">PESQUISAR</label>
+        <input id="pesquisa" type="search" name="PESQUISAR">
+</forms>
+
+<div>  
+    <a href="conta.html">
+   (0)🛒  / MINHA CONTA
+</a>
+
+</header>
+
+
+<main>
+    <div id="tudo">
+    FEMININO
+    </div>
+
+    <div  class="imagens">
+        <div class="imagem">
+        <img src="./img/feminino.webp">
+        <p>CROPPED BASYC PRETO R$39,97 ★★★★★ </p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="imagem2">
+        <img src="./img/jaquetafem.webp">
+        <p>PUFF JACKET FEM PRETO R$79,97 ★★★★★ </p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="imagem">
+        <img src="./img/molefem.webp">
+        <p>CONJUNTO MOLETOM PLUSH FEM - ROSA BEBE R$99,97 ★★★★★ </p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+
+        <div class="imagem">
+          <img src="./img/camisetafem.webp">
+         <p>CAMISETA TAILORING TOP R$66,57 ★★★★★ </p>
+         <br>
+         <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+         </div>
+
+ </div>
+
+
+    
+
+
+
+   
+
+    </div>
+<div id="avaliação">AVALIAÇÃO</div>
+
+<footer>
+
+<form class="form1" onsubmit="return adicionaravaliacao(event)"> 
+
+    <label for="name">NOME</label>
+    <input  id="name" type="text" name="" placeholder="digite seu nome">
+
+ 
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" placeholder="✉︎ insira o email"> 
+
+
+    <label  for="text">TELEFONE</label>
+    <input type="text"  id="telefone" name="TELEFONE" placeholder="☏">
+
+ 
+    <label for="nota" style="margin-top: 100px;">AVALIAÇÃO</label>
+    <input  id="nota" type="nota" name="NOTAS">
+
+   <button type="submit">ENVIAR</button>
+
+</form>  
+
+<div id="avaliacaolist"></div>
+
+
+</footer>
+</body>
+
+</html>

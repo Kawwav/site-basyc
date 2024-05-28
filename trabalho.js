@@ -22,17 +22,17 @@ function adicionaravaliacao(event) {
     const nomeinput = document.getElementById("name");
     const emailinput = document.getElementById("email");
     const telefoneinput = document.getElementById("telefone");
-    const numberinput = document.getElementById("number");
+    const notainput = document.getElementById("nota");
 
 
     const nome = nomeinput.value.trim();
     const email = emailinput.value.trim();
     const telefone = telefoneinput.value.trim();
-    const number = numberinput.value.trim();
+    const nota = notainput.value.trim();
 
 
-    if (nome !== "" && email !== "" && telefone !== "" && number !== "") {
-        const novaavaliacao = { nome, email, telefone, number };
+    if (nome !== "" && email !== "" && telefone !== "" && nota !== "") {
+        const novaavaliacao = { nome, email, telefone, nota };
         avaliacoes.push(novaavaliacao);
 
     sessionStorage.setItem("avaliacoes",JSON.stringify(avaliacoes))
@@ -60,7 +60,7 @@ function exibiravaliacoes() {
 
             <p><strong>telefone:</strong> ${avaliacao.telefone}</p>
 
-            <p><strong>number:</strong> ${avaliacao.number}</p>
+            <p><strong>nota:</strong> ${avaliacao.nota}</p>
 
             <hr>
         `;
@@ -80,5 +80,5 @@ function limparinputs() {
 
     document.getElementById("telefone").value = "";
 
-    document.getElementById("number").value = "";
+    document.getElementById("nota").value = "";
 }

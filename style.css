@@ -30,6 +30,14 @@
     font-size: 30px;
 }
 
+#tudo1{
+
+    display: flex;
+    margin-left: 60px ;
+    margin-top: 50px; 
+    font-size: 30px;
+}
+
 #ms{
 
     display: flex;
@@ -76,12 +84,34 @@ max-height: 300px;
 
         margin-top: 90px; 
         display: flex; 
-        justify-content: space-around;
+         margin-left: 80px;
+         justify-content: space-around;
     }
- 
-        
+    .linha img{
+
+        max-width: 200px;
+        max-height: 200px;
+        }
 
 
+
+    .linha1{
+    margin-top: 90px; 
+    display: flex; 
+    justify-content: space-around;
+    }
+    .linha1 img{
+    max-width: 200px;
+    max-height: 200px;
+    }
+    
+    .oculos{
+        margin-top: 66px;
+    }
+
+    .brinco{
+        margin-top: -56px;
+    }
 
 
 

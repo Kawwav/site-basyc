@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>masculino</title>
+    <link rel="icon" href="./img/download.png" type="image/x-icon">
+    <script src="trabalho.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,7 +38,7 @@
         
             <div>
                 <a href="outros.html">
-                <b>★OUTROS</b>
+                <b>★ACESSÓRIOS</b>
                 </a>
             </div>
         
@@ -47,8 +49,9 @@
         </forms>
         
         <div>  
-           (0) CARRINHO / MINHA CONTA
-        </div>
+            <a href="conta.html">
+           (0)🛒  / MINHA CONTA
+        </a>
         
         </header>
         
@@ -90,14 +93,7 @@
                 </div>
             </div>
         
-            <div id="linha">
-                    <div class="imagem">
-                    <img src="./img/mangacomprida.webp">
-                    <p>CAMISETA MANGA LONGA PRETA R$49,97 ★★★★★ </p>
-                    <br>
-                    <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
-                    </div>
-        
+            <div class="linha">
                     <div class="imagem">
                     <img src="./img/calcamoletom.webp">
                     <p>CALÇA JOGGER MOLETOM CHUMBO R$74,97 ★★★★★ </p>
@@ -105,8 +101,59 @@
                     <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
                     </div>
 
+
+                    <div class="imagem">
+                    <img src="./img/regata.webp">
+                    <p>REGATA BASYC PRETA R$48,97 ★★★★★ </p>
+                    <br>
+                    <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+                    </div>
+
+                    <div class="imagem">
+                    <img src="./img/overside.png">
+                    <p>CAMISETA OVERSIZED PRETA R$88,97 ★★★★★ </p>
+                    <br>
+                    <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+                    </div>
+
+                    <div class="imagem">
+                    <img src="./img/suv.webp">
+                     <p>CAMISETA POLIAMIDA 50%SUV R$69,97 ★★★★★ </p>
+                     <br>
+                     <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+                     </div>
+
             </div>
 
- 
-</body>
-</html>
+            <div id="avaliação">AVALIAÇÃO</div>
+
+            <footer>
+            
+            <form class="form1" onsubmit="return adicionaravaliacao(event)"> 
+            
+                <label for="name">NOME</label>
+                <input  id="name" type="text" name="" placeholder="digite seu nome">
+            
+             
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" placeholder="✉︎ insira o email"> 
+            
+            
+                <label  for="text">TELEFONE</label>
+                <input type="text"  id="telefone" name="TELEFONE" placeholder="☏">
+            
+             
+                <label for="nota" style="margin-top: 100px;">AVALIAÇÃO</label>
+                <input  id="nota" type="nota" name="NOTAS">
+            
+               <button type="submit">ENVIAR</button>
+            
+            </form>  
+            
+            <div id="avaliacaolist"></div>
+            
+            
+            </footer>
+            </body>
+            
+            </html>

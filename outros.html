@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASYC</title>
+    <link rel="icon" href="./img/download.png" type="image/x-icon">
+    <script src="trabalho.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div id="frete">
+    FRETE GRÁTIS A PARTIR R$150
+</div>
+
+<div id="logo">
+    <a href="index.html">
+        BASYC
+    </a>
+</div>
+
+<header id="opções">
+
+    <div>
+        <a href="masculino.html">
+        <B>★MASCULINO/UNISSEX</B>
+        </a>
+    </div>
+
+    <div>
+        <a href="feminino.html">
+        <b>★FEMININO</B>
+        </a>
+    </div>
+
+    <div>
+        <b>★ACESSÓRIOS</b>
+    </div>
+
+    <forms>
+
+        <label for="pesquisa">PESQUISAR</label>
+        <input id="pesquisa" type="search" name="PESQUISAR">
+</forms>
+
+<div>  
+    <a href="conta.html">
+   (0)🛒  / MINHA CONTA
+</a>
+
+</header>
+
+
+<main>
+    <div id="tudo">
+        ACESSÓRIOS
+    </div>
+
+
+    <div class="linha1">
+        <div id="imagem1">
+        <img src="./img/bone.jpg">
+        <p>BONÉ BASYC PRETO R$20,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="oculos">
+        <img src="./img/oculos.jpg">
+        <p>ÓCULOS PRETO R$94,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="brinco">
+         <img src="./img/brinco.webp">
+        <p>BRINCO FEMININO DE OURO 18K PÉROLA R$294,37  ★★★★★</p>
+         <br>
+         <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="brinco">
+        <img src="./img/colar.jpg">
+        <p>CORRENTE DE AÇO 316 PRATA R$34,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+    </div>
+
+<div id="avaliação">AVALIAÇÃO</div>
+
+<footer>
+
+<form class="form1" onsubmit="return adicionaravaliacao(event)"> 
+
+    <label for="name">NOME</label>
+    <input  id="name" type="text" name="" placeholder="digite seu nome">
+
+ 
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" placeholder="✉︎ insira o email"> 
+
+
+    <label  for="text">TELEFONE</label>
+    <input type="text"  id="telefone" name="TELEFONE" placeholder="☏">
+
+ 
+    <label for="nota" style="margin-top: 100px;">AVALIAÇÃO</label>
+    <input  id="nota" type="nota" name="NOTAS">
+
+   <button type="submit">ENVIAR</button>
+
+</form>  
+
+<div id="avaliacaolist"></div>
+
+
+</footer>
+</body>
+
+</html>

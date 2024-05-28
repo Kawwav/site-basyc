@@ -4,13 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BASYC</title>
-
     <link rel="icon" href="./img/download.png" type="image/x-icon">
-
-
     <script src="trabalho.js"></script>
-
-
         <link rel="stylesheet" href="style.css">
 
 </head>
@@ -45,7 +40,7 @@
 
     <div>
         <a href="outros.html">
-        <b>★OUTROS</b>
+        <b>★ACESSÓRIOS</b>
         </a>
     </div>
 
@@ -56,19 +51,20 @@
 </forms>
 
 <div>  
-   (0) CARRINHO / MINHA CONTA
+    <a href="conta.html">
+   (0)🛒  / MINHA CONTA
+</a>
 </div>
 
 </header>
 
 
 <main>
-    <div id="tudo">
-    TUDO
+    <div id="tudo1">
+    \.BASYC./
     </div>
 
     <div  class="imagens">
-
         <div class="imagem">
         <img src="./img/camiseta.webp">
         <p>CAMISETA BASYC CINZA R$44,97★★★★☆</p>
@@ -92,24 +88,15 @@
         <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
         </div>
 
-
-        <div id="imagem1">
-        <img src="./img/bone.jpg">
-        <p>BONÉ BASYC PRETO R$20,37  ★★★★★</p>
-        <br>
-        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
-        </div>
- </div>
-
-    <div class="linha">
-            <div class="imagem2">
+        <div class="imagem2">
             <img src="./img/mole.webp"">
             <p>BLUSA MOLETOM CANGURU PRETO R$104,97 ★★★★★ </p>
             <br>
             <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
             </div>
+ </div>
 
-
+    <div class="linha">
             <div class="imagem2">
             <img src="./img/jaquetafem.webp">
             <p>PUFF JACKET FEM PRETO R$79,97 ★★★★★ </p>
@@ -125,6 +112,13 @@
             <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
             </div>
 
+            <div class="imagem">
+            <img src="./img/molefem.webp">
+            <p>CONJUNTO MOLETOM PLUSH FEM - ROSA BEBE R$99,97 ★★★★★ </p>
+            <br>
+            <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+            </div>
+
 
             <div class="imagem">
             <img src="./img/calcamoletom.webp">
@@ -135,6 +129,38 @@
     
     </div>
 
+
+
+    <div class="linha1">
+        <div id="imagem1">
+        <img src="./img/bone.jpg">
+        <p>BONÉ BASYC PRETO R$20,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="oculos">
+        <img src="./img/oculos.jpg">
+        <p>ÓCULOS PRETO R$94,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="brinco">
+         <img src="./img/brinco.webp">
+        <p>BRINCO FEMININO DE OURO 18K PÉROLA R$294,37  ★★★★★</p>
+         <br>
+         <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+        <div class="brinco">
+        <img src="./img/colar.jpg">
+        <p>CORRENTE DE AÇO 316 PRATA R$34,37  ★★★★★</p>
+        <br>
+        <button  onclick="adicionarcarrinho()" style="width: 80px; height:80px;">COMPRAR</button>
+        </div>
+
+    </div>
 
 <div id="avaliação">AVALIAÇÃO</div>
 
@@ -154,8 +180,8 @@
     <input type="text"  id="telefone" name="TELEFONE" placeholder="☏">
 
  
-    <label for="number" style="margin-top: 100px;">AVALIAÇÃO</label>
-    <input  id="number" type="number" name="NOTAS">
+    <label for="nota" style="margin-top: 100px;">AVALIAÇÃO</label>
+    <input  id="nota" type="nota" name="NOTAS">
 
    <button type="submit">ENVIAR</button>
 
